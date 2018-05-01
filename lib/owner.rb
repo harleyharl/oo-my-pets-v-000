@@ -82,6 +82,7 @@ class Owner
       end
     end
 
+#WORKS BUT NOT WELL
     def list_pets
       list_pets = []
       @pets.collect do |pets, pet_array|
